@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1.563rem;
+    margin: auto;
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+p {
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    width: 90%;
+    text-align: center;
+}
+
+/********************** Class CSS ******************/
+
+.attribution {
+    font-family: 'Outfit', sans-serif;
+    text-align: right;
+    margin-top: 1.25rem;
+}
+
+.second-text {
+    font-weight: 400;
+    margin-top: 1.25rem;
+}
+
+.subsection {
+    background-color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-left: 50rem;
+    margin-top: 12.5rem;
+    border-radius: 1.563rem;
+    height: 25rem;
+    width: 17.5rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+.subsection {
+    margin-left: 2.5rem;
+}
+}
